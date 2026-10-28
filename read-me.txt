@@ -1,0 +1,95 @@
+# 🔢 Arduino-Based Digital Calculator Using Keypad and LCD
+
+## 📌 Project Overview
+
+This project implements a simple digital calculator using an **Arduino UNO, 4×4 Matrix Keypad, and 16×2 LCD Display**. It allows users to perform basic arithmetic operations by entering numbers and selecting operators through the keypad.
+
+The Arduino processes the user's input and displays the calculation results on the LCD. The circuit is designed and simulated using the Wokwi online simulator.
+
+## 🎯 Objectives
+
+* Design a digital calculator using Arduino UNO.
+* Interface a 4×4 matrix keypad with a microcontroller.
+* Display user inputs and calculation results on an LCD.
+* Perform basic arithmetic operations.
+* Understand embedded systems and hardware interfacing.
+
+## 🛠️ Components Used
+
+| Component         | Description                                 |
+| ----------------- | ------------------------------------------- |
+| Arduino UNO       | Main microcontroller                        |
+| 4×4 Matrix Keypad | Numerical and operator input                |
+| 16×2 LCD Display  | Displays calculations and results           |
+| Resistor          | LCD backlight current limiting, as required |
+| Jumper Wires      | Electrical connections                      |
+| Wokwi Simulator   | Circuit design and simulation               |
+
+## ⚙️ Features
+
+* Addition (+)
+* Subtraction (-)
+* Multiplication (*)
+* Division (/)
+* Decimal number input
+* Real-time keypad input
+* LCD-based output display
+
+*Note: The supported operations depend on the implementation in the Arduino source code.*
+
+## 🔌 Working Principle
+
+1. The user enters numbers using the 4×4 matrix keypad.
+2. The Arduino reads the keypad input.
+3. The selected arithmetic operator is identified.
+4. The Arduino performs the requested calculation.
+5. The result is displayed on the 16×2 LCD.
+
+### Example
+
+```text
+Input: 12 + 3
+Output: 15
+```
+
+## 🔗 Circuit Diagram and Simulation
+
+The circuit connects the keypad and LCD to the Arduino UNO using digital and analog pins configured for the project.
+
+**Wokwi Simulation:**
+[Open Arduino Calculator Project](https://wokwi.com/projects/479009033959472129)
+
+## 💻 Technologies Used
+
+* Arduino C/C++
+* Arduino UNO
+* 4×4 Matrix Keypad
+* 16×2 LCD
+* Wokwi Simulator
+
+## 🚀 Future Improvements
+
+* Scientific calculator functions
+* Backspace and clear functionality
+* Error handling for division by zero
+* Calculation history
+* Improved user interface
+
+## 📚 Learning Outcomes
+
+This project provides practical experience in:
+
+* Arduino programming
+* Keypad interfacing
+* LCD interfacing
+* Digital input and output
+* Basic arithmetic processing
+* Embedded systems simulation
+
+## 👨‍💻 Author
+
+**Your Name**
+
+## 📄 License
+
+This project can be published under the MIT License if you choose to distribute it under those terms.
